@@ -25,3 +25,6 @@ git clone https://github.com/owasp-amass/amass.git
 # Install sublist3r 
 alias sublist3r="py ~/0xHack3rspace/repos/sublist3r/sublist3r.py"
 
+# Install juice-shop
+docker pull bkimminich/juice-shop
+
