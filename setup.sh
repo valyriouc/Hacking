@@ -6,6 +6,7 @@ sudo apt-get install docker.io
 sudo apt-get install amass 
 sudo apt-get install assetfinder 
 sudo apt-get install knockpy 
+sudo apt-get install flameshot
 
 cd ~
 
