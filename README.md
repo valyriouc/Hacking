@@ -3,6 +3,7 @@ This repository contains all stuff related to hacking
 
 ## Resources
 * https://book.hacktricks.xyz
+* https://github.com/TCM-Course-Resources/Open-Source-Intellingence-Resources
 
 ## Labs
 * https://www.hackthebox.com
