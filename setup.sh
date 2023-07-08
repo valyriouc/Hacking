@@ -7,6 +7,7 @@ sudo apt-get install amass
 sudo apt-get install assetfinder 
 sudo apt-get install knockpy 
 sudo apt-get install flameshot
+sudo apt-get install cherrytree
 
 cd ~
 
