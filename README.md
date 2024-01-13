@@ -21,6 +21,7 @@ This repository contains all stuff related to hacking
 * https://www.hackingarticles.in
 * https://www.hackerone.com/vulnerability-and-security-testing-blog
 * https://thehackerblog.com
+* https://www.hackerone.com/ethical-hacker/100-hacking-tools-and-resources
   
 ## Labs
 * https://www.hackthebox.com
