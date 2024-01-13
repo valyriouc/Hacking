@@ -9,6 +9,7 @@ sudo apt-get install knockpy
 sudo apt-get install flameshot
 sudo apt-get install cherrytree
 sudo apt-get install wfuzz
+sudo apt-get install chromium
 
 cd ~
 
