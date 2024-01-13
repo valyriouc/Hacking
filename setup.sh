@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt-get update && sudo apt-get upgrade
+sudo apt update && sudo apt full-upgrade
 
 sudo apt-get install keepassxc
 sudo apt-get install docker.io
