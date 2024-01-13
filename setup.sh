@@ -8,25 +8,41 @@ sudo apt-get install assetfinder
 sudo apt-get install knockpy 
 sudo apt-get install flameshot
 sudo apt-get install cherrytree
+sudo apt-get install wfuzz
 
 cd ~
 
 # Create file structure
-mkdir 0xHack3rspace && cd 0xHack3rspace
-mkdir htb 
-mkdir thm
-mkdir cases
-mkdir repos && cd repos
+mkdir Hack3r && cd Hack3r
+mkdir sources
+mkdir rooms
+mkdir tmp
+
+mkdir sources
 
 # Getting wordlists
 git clone https://github.com/danielmiessler/SecLists.git
 git clone https://github.com/OJ/gobuster.git
-git clone https://github.com/aboul3la/Sublist3r.git
 git clone https://github.com/owasp-amass/amass.git
 
 # Install sublist3r 
-alias sublist3r="py ~/0xHack3rspace/repos/sublist3r/sublist3r.py"
+git clone https://github.com/aboul3la/Sublist3r.git
+cd Sublist3r
+sudo pip install -r requirements.txt
+sudo cp sublist3r.py subbrute /usr/bin
+
+# Rust
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source "$HOME/.cargo/env"
+cargo install feroxbuster
+cargo install rustscan
 
 # Install juice-shop
 docker pull bkimminich/juice-shop
+
+# Python installation
+pip install requests
+pip install flask 
+pip install django
+pip install mypy
 
